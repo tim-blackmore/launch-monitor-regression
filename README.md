@@ -27,9 +27,9 @@ We are free to choose the data source, but are required to create 3 questions th
 Data were collected from a Trackman Launch Monitor which gives numeeric data on both golf club position and ball flight trajectory. The data is entirely numeric but had to be converted to this format once imported. There are ~10000 rows. A correlation matrix and biplot was created to examine the relationship between the variables.
 
 ### 3. Data preparation
-From the dataset, two variables were identified as the dependant variables, or the varaibles to be predicted (Total, Side Total). These data were also combined to create a third dependant variable labelled Distance-Accuracy.
+From the dataset, two variables were identified as the dependant variables, or the variables to be predicted (Total, Side Total). These data were also combined to create a third dependant variable labelled Distance-Accuracy.
 
-Two varaibles (Impact Offset & Impact Width) were dropped as they contained too much missing data to be sensibly imputed. Data were assesed for univaraite outliers. These made up only a small proportion of the data and it was unlikely that they were due to measurement error so they were retained.
+Two variables (Impact Offset & Impact Width) were dropped as they contained too much missing data to be sensibly imputed. Data were assesed for univariate outliers. These made up only a small proportion of the data and it was unlikely that they were due to measurement error so they were retained.
 
 ### 4. Modelling
 Linear regression was chosen to examine the rleationship between the dependant and independant variables. Data was split into testing a training datasets. 3 models were created to assess 3 questions.
@@ -41,7 +41,7 @@ Linear regression was chosen to examine the rleationship between the dependant a
 The goal was to determine which model coefficinets were mostly responsible for predicting the dependant variables. This was acheived with inspection of the model coefficients.
 
 ### 5. Evaluation
-Models 1 and 3 performed well. I think all models could be improved with the creation of principal components in order to make the model more parsimonious. But, as the goal was intepretation of which varaibles were most important via inspection of the model coefficients this was not possible. 
+Models 1 and 3 performed well. I think all models could be improved with the creation of principal components in order to make the model more parsimonious. But, as the goal was intepretation of which variables were most important via inspection of the model coefficients this was not possible. 
 
 ### 6. Deployment
 N/A.
