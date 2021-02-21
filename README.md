@@ -32,13 +32,13 @@ From the dataset, two variables were identified as the dependant variables, or t
 Two variables (Impact Offset & Impact Width) were dropped as they contained too much missing data to be sensibly imputed. Data were assesed for univariate outliers. These made up only a small proportion of the data and it was unlikely that they were due to measurement error so they were retained.
 
 ### 4. Modelling
-Linear regression was chosen to examine the rleationship between the dependant and independant variables. Data was split into testing a training datasets. 3 models were created to assess 3 questions.
+Linear regression was chosen to examine the relationship between the dependant and independant variables. Data were split into testing a training datasets. 3 models were created to assess 3 questions.
 
-1. Which variables are precictive of driving distance - r2 score 0.86
-2. Which variables are precictive of driving accuracy - r2 score 0.63
-3. Which variables are precictive of a distance-accuracy tradeoff - r2 score 0.76
+1. Which variables are predictive of driving distance - r2 score 0.86
+2. Which variables are predictive of driving accuracy - r2 score 0.63
+3. Which variables are predictive of a distance-accuracy tradeoff - r2 score 0.76
 
-The goal was to determine which model coefficinets were mostly responsible for predicting the dependant variables. This was acheived with inspection of the model coefficients.
+The goal was to determine which model coefficinets were mostly responsible for predicting the dependant variables. This was acheived via inspection of the model coefficients.
 
 ### 5. Evaluation
 Models 1 and 3 performed well. I think all models could be improved with the creation of principal components in order to make the model more parsimonious. But, as the goal was intepretation of which variables were most important via inspection of the model coefficients this was not possible. 
