@@ -41,7 +41,7 @@ Linear regression was chosen to examine the relationship between the dependant a
 The goal was to determine which model coefficinets were mostly responsible for predicting the dependant variables. This was acheived via inspection of the model coefficients.
 
 ### 5. Evaluation
-Models 1 and 3 performed well. I think all models could be improved with the creation of principal components in order to make the model more parsimonious. But, as the goal was intepretation of which variables were most important via inspection of the model coefficients this was not possible. 
+Models 1 and 3 performed well. All models could be improved with the creation of principal components or a stepwise appraoch to retaining/removing variables in order to make the model more parsimonious. But, as the goal was intepretation of which variables were most important via inspection of the model coefficients this was not possible. 
 
 ### 6. Deployment
 N/A.
