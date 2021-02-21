@@ -20,4 +20,16 @@ This project fulfils one of the requirements for the completion of the Data Scie
 
 ## Project summary
 
+1. Business understanding
+The goal is to complete the Data Science project as part of the Udacity nanodegree. 
+
+We are free to choose the data source, but are required to create 3 questions that we address from the data. Success is defined as a completed jupyter notebook addressing the 3 questions as well as a blog post on Medium for non-technical stakeholders.
+
+2. Data understanding
+4. Data preparation
+5. Modelling
+6. Evaluation
+7. Deployment
+N/A.
+
 ## Acknowledgements
