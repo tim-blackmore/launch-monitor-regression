@@ -6,11 +6,9 @@ The libraries used in this project are outlined in requirements.txt. They can be
 
 ```pip3 install -r requirements.txt```
 
-
 ## Motivation
 
-This project fulfils one of the requirements for the completion of the Data Science nanodegree with Udacity.
-
+This project fulfils one of the requirements for the completion of the Data Science nanodegree with Udacity. 
 
 ## Project files
 
@@ -31,12 +29,21 @@ Data were collected from a Trackman Launch Monitor which gives numeeric data on 
 ### 3. Data preparation
 From the dataset, two variables were identified as the dependant variables, or the varaibles to be predicted (Total, Side Total). These data were also combined to create a third dependant variable labelled Distance-Accuracy.
 
-2 varaibles (Impact Offset & Impact Width) were dropped as they contained too much missing data to be sensibly imputed. Data were assesed for univaraite outliers. These made up only a small proportion of the data and it was unlikely that they were due to measurement error so they were retained.
+Two varaibles (Impact Offset & Impact Width) were dropped as they contained too much missing data to be sensibly imputed. Data were assesed for univaraite outliers. These made up only a small proportion of the data and it was unlikely that they were due to measurement error so they were retained.
 
+### 4. Modelling
+Linear regression was chosen to examine the rleationship between the dependant and independant variables. Data was split into testing a training datasets. 3 models were created to assess 3 questions.
 
-6. Modelling
-7. Evaluation
-8. Deployment
+1. Which variables are precictive of driving distance - r2 score 0.86
+2. Which variables are precictive of driving accuracy - r2 score 0.63
+3. Which variables are precictive of a distance-accuracy tradeoff - r2 score 0.76
+
+The goal was to determine which model coefficinets were mostly responsible for predicting the dependant variables. This was acheived with inspection of the model coefficients.
+
+### 5. Evaluation
+Models 1 and 3 performed well. I think all models could be improved with the creation of principal components in order to make the model more parsimonious. But, as the goal was intepretation of which varaibles were most important via inspection of the model coefficients this was not possible. 
+
+### 6. Deployment
 N/A.
 
 ## Acknowledgements
