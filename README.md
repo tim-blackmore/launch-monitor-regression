@@ -47,3 +47,4 @@ Models 1 and 3 performed well. All models could be improved with the creation of
 N/A.
 
 ## Acknowledgements
+Some functions relating to the linear regression were taken from the Udacity training materials.
