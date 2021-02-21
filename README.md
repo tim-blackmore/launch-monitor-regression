@@ -4,7 +4,7 @@
 
 The libraries used in this project are outlined in requirements.txt. They can be installed using the following command.
 
-pip3 install -r requirements.txt
+'''pip3 install -r requirements.txt'''
 
 
 ## Motivation
