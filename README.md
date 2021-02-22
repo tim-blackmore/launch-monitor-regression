@@ -1,6 +1,6 @@
 # Udacity-Assignment-1
 
-## Blog for non-technical stakeholders
+## Blog article
 https://timblackmore.medium.com/smash-factor-not-heard-of-it-listen-up-942d25f92019
  
 ## Installation
